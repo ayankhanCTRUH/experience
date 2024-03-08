@@ -53,25 +53,19 @@ const Home = () => {
     }
   ]
   return (
-    <div className="bg-[--border-color] mt-8 relative rounded-[24px] p-5 flex flex-col max-w-[1440px] m-auto">
-      <h4 className="text-[--white-color] font-normal text-4xl non-italic leading-8">
+    <div className="mt-8 relative rounded-[24px] px-5 flex flex-col gap-5 max-w-[1440px] m-auto">
+      <h4 className="dark:text-[--white-color] font-normal text-4xl non-italic leading-8">
         Welcome to Ctruh Experiences
       </h4>
-      <p className="text-xl font-light text-[#a9a9a9] w-[80%] leading-normal">
+      <p className="text-xl font-light text-[--background-color] dark:text-[#a9a9a9] w-[80%] leading-normal">
         Easily access all our active experiences with a click of a button
       </p>
-      <div className="w-full p-2">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 w-full my-8">
+      <div className="w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-5 w-full mb-8">
           {experiencesData.map(data =>
             <div
               key={data.heading}
-              className="relative flex-col gap-3 flex p-5 text-2xl rounded-2xl cursor-pointer snap-start"
-              style={{
-                backgroundImage:
-                  "linear-gradient(rgb(36, 35, 37), rgb(23, 22, 25))",
-                boxShadow:
-                  "rgb(82, 81, 84) 0px 1px 2px inset, rgba(0, 0, 0, 0.8) 0px 20px 25px -5px, rgba(0, 0, 0, 0.9) 0px 10px 10px -5px",
-              }}
+              className="experienceCard relative flex-col gap-3 flex p-5 text-2xl rounded-2xl cursor-pointer snap-start"
             >
               <Image
                 src={data.imgUrl}
