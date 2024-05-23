@@ -26,26 +26,26 @@ const Home = () => {
       heading: "GMC",
       link: "https://gmcauto.ctruh.org/"
     },
-    // {
-    //   imgUrl: "/images/dashboard/kiaya.webp",
-    //   heading: "Kiaya",
-    //   link: "https://65d87c935405aedbdb61e5e0--melodic-cat-1a84e2.netlify.app/"
-    // },
+    {
+      imgUrl: "/images/dashboard/leap.png",
+      heading: "Leap",
+      link: "https://65e979255a96b3c6bbf1c8d5--peppy-parfait-052561.netlify.app/"
+    },
     {
       imgUrl: "/images/dashboard/aaseyaverse.webp",
       heading: "Aaseya",
       link: "https://65e97b6fc55aadc73dcaba62--beautiful-kelpie-12acb9.netlify.app/"
     },
-    // {
-    //   imgUrl: "/images/dashboard/motofever.webp",
-    //   heading: "MotoFever",
-    //   link: "https://motofever.ctruh.org/"
-    // },
-    // {
-    //   imgUrl: "/images/dashboard/1bhk-apartment.webp",
-    //   heading: "1bhk Apartment",
-    //   link: "https://poc.ctruh.org/apartment/"
-    // },
+    {
+      imgUrl: "/images/dashboard/real-estate.png",
+      heading: "Real-estate",
+      link: "https://ctruh-realestate-v1.netlify.app/"
+    },
+    {
+      imgUrl: "/images/dashboard/1bhk-apartment.webp",
+      heading: "1bhk Apartment",
+      link: "https://poc.ctruh.org/apartment/"
+    },
     // {
     //   imgUrl: "/images/dashboard/bike-configurator.webp",
     //   heading: "Bike Configurator",
