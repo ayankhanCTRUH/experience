@@ -22,38 +22,38 @@ const Home = () => {
       link: "https://65b0f6a56744877861f82f7e--strong-trifle-a5da9b.netlify.app/"
     },
     {
-      imgUrl: "/images/dashboard/leap.webp",
-      heading: "Leap",
-      link: "https://aaseya-verse.com/"
+      imgUrl: "/images/dashboard/GMC.webp",
+      heading: "GMC",
+      link: "https://gmcauto.ctruh.org/"
     },
-    {
-      imgUrl: "/images/dashboard/kiaya.webp",
-      heading: "Kiaya",
-      link: "https://65d87c935405aedbdb61e5e0--melodic-cat-1a84e2.netlify.app/"
-    },
+    // {
+    //   imgUrl: "/images/dashboard/kiaya.webp",
+    //   heading: "Kiaya",
+    //   link: "https://65d87c935405aedbdb61e5e0--melodic-cat-1a84e2.netlify.app/"
+    // },
     {
       imgUrl: "/images/dashboard/aaseyaverse.webp",
       heading: "Aaseya",
       link: "https://65e97b6fc55aadc73dcaba62--beautiful-kelpie-12acb9.netlify.app/"
     },
-    {
-      imgUrl: "/images/dashboard/motofever.webp",
-      heading: "MotoFever",
-      link: "https://motofever.ctruh.org/"
-    },
-    {
-      imgUrl: "/images/dashboard/1bhk-apartment.webp",
-      heading: "1bhk Apartment",
-      link: "https://poc.ctruh.org/apartment/"
-    },
-    {
-      imgUrl: "/images/dashboard/bike-configurator.webp",
-      heading: "Bike Configurator",
-      link: "https://poc-bike-configurator-ctruh-mobile.netlify.app/"
-    }
+    // {
+    //   imgUrl: "/images/dashboard/motofever.webp",
+    //   heading: "MotoFever",
+    //   link: "https://motofever.ctruh.org/"
+    // },
+    // {
+    //   imgUrl: "/images/dashboard/1bhk-apartment.webp",
+    //   heading: "1bhk Apartment",
+    //   link: "https://poc.ctruh.org/apartment/"
+    // },
+    // {
+    //   imgUrl: "/images/dashboard/bike-configurator.webp",
+    //   heading: "Bike Configurator",
+    //   link: "https://poc-bike-configurator-ctruh-mobile.netlify.app/"
+    // }
   ]
   return (
-    <div className="mt-8 relative rounded-[24px] px-5 flex flex-col gap-5 max-w-[1440px] m-auto">
+    <div className="mt-8 h-screen relative rounded-[24px] px-5 flex flex-col gap-5 max-w-[1440px] m-auto">
       <h4 className="dark:text-[--white-color] font-normal text-4xl non-italic leading-8">
         Welcome to Ctruh Experiences
       </h4>
