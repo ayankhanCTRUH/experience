@@ -41,11 +41,11 @@ const Home = () => {
       heading: "Real-estate",
       link: "https://ctruh-realestate-v1.netlify.app/"
     },
-    {
-      imgUrl: "/images/dashboard/1bhk-apartment.webp",
-      heading: "1bhk Apartment",
-      link: "https://poc.ctruh.org/apartment/"
-    },
+    // {
+    //   imgUrl: "/images/dashboard/1bhk-apartment.webp",
+    //   heading: "1bhk Apartment",
+    //   link: "https://poc.ctruh.org/apartment/"
+    // },
     // {
     //   imgUrl: "/images/dashboard/bike-configurator.webp",
     //   heading: "Bike Configurator",
