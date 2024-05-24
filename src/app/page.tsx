@@ -23,7 +23,7 @@ const Home = () => {
     },
     {
       imgUrl: "/images/dashboard/gmc2.png",
-      heading: "Car configurator",
+      heading: "Car Showroom",
       link: "https://gmcauto.ctruh.org/"
     },
     {
