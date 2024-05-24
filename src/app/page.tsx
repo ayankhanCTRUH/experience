@@ -22,8 +22,8 @@ const Home = () => {
       link: "https://65b0f6a56744877861f82f7e--strong-trifle-a5da9b.netlify.app/"
     },
     {
-      imgUrl: "/images/dashboard/GMC.webp",
-      heading: "GMC",
+      imgUrl: "/images/dashboard/gmc2.png",
+      heading: "Car configurator",
       link: "https://gmcauto.ctruh.org/"
     },
     {
