@@ -41,6 +41,21 @@ const Home = () => {
       heading: "Real-estate",
       link: "https://ctruh-realestate-v1.netlify.app/"
     },
+    {
+      imgUrl: "/car-configurator.png",
+      heading: "Car-Configurator",
+      link: "https://car-configurator.ctruh.com"
+    },
+    {
+      imgUrl: "/casa-decor.png",
+      heading: "Casa-Decor",
+      link: "https://casa-decor.netlify.app/"
+    },
+    {
+      imgUrl: "/boat-experinces.png",
+      heading: "Boat-Experience",
+      link: "https://boat-experience.netlify.app/"
+    },
     // {
     //   imgUrl: "/images/dashboard/1bhk-apartment.webp",
     //   heading: "1bhk Apartment",
@@ -53,7 +68,7 @@ const Home = () => {
     // }
   ]
   return (
-    <div className="mt-8 h-screen relative rounded-[24px] px-5 flex flex-col gap-5 max-w-[1440px] m-auto">
+    <div className="mt-8 relative rounded-[24px] px-5 flex flex-col gap-5 max-w-[1440px] m-auto">
       <h4 className="dark:text-[--white-color] font-normal text-4xl non-italic leading-8">
         Welcome to Ctruh Experiences
       </h4>
