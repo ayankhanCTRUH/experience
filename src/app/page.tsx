@@ -38,17 +38,17 @@ const Home = () => {
     },
     {
       imgUrl: "/images/dashboard/real-estate.png",
-      heading: "Real-estate",
+      heading: "Real estate",
       link: "https://ctruh-realestate-v1.netlify.app/"
     },
     {
       imgUrl: "/car-configurator.png",
-      heading: "Car-Configurator",
+      heading: "Car Configurator",
       link: "https://car-configurator.ctruh.com"
     },
     {
       imgUrl: "/casa-decor.png",
-      heading: "Casa-Decor",
+      heading: "Casa Decor",
       link: "https://casa-decor.netlify.app/"
     },
     {
@@ -56,16 +56,41 @@ const Home = () => {
       heading: "Boat-Experience",
       link: "https://boat-experience.netlify.app/"
     },
-    // {
-    //   imgUrl: "/images/dashboard/1bhk-apartment.webp",
-    //   heading: "1bhk Apartment",
-    //   link: "https://poc.ctruh.org/apartment/"
-    // },
-    // {
-    //   imgUrl: "/images/dashboard/bike-configurator.webp",
-    //   heading: "Bike Configurator",
-    //   link: "https://poc-bike-configurator-ctruh-mobile.netlify.app/"
-    // }
+    {
+      imgUrl: "/IPL.png",
+      heading: "IPL Experience",
+      link: "https://ipl-experience.netlify.app/"
+    },
+    {
+      imgUrl: "/aaseya.png",
+      heading: "Pega world",
+      link: "https://pega-wrold.netlify.app/"
+    },
+    {
+      imgUrl: "/moto_fever.png",
+      heading: "Moto-Fever",
+      link: "https://motofever.ctruh.org/"
+    },
+    {
+      imgUrl: "/awe-experience.png",
+      heading: "AWE Experience",
+      link: "https://experiences-awe.ctruh.com/"
+    },
+    {
+      imgUrl: "/bike_configurator.png",
+      heading: "Bike Configurator",
+      link: "https://experiences-awe.ctruh.com/"
+    },
+    {
+      imgUrl: "/real-estate.png",
+      heading: "Real estate",
+      link: "https://real-estate.ctruh.com/"
+    },
+    {
+      imgUrl: "/kiaya.png",
+      heading: "Kiaya",
+      link: "https://kiaya.netlify.app/"
+    },
   ]
   return (
     <div className="mt-8 relative rounded-[24px] px-5 flex flex-col gap-5 max-w-[1440px] m-auto">
